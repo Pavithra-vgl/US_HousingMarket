@@ -1,44 +1,38 @@
-#  US Housing Market Analysis (2024 - 2025)
+# US Housing Market Analysis (2024 - 2025)
 
 This project analyzes the US housing market using city-level data to understand pricing behavior, market competitiveness, and supply-demand dynamics.
 
-The analysis is performed using **R** and focuses on testing three key hypotheses related to housing prices and market trends.
-
----
+The analysis is performed in R and focuses on testing three key hypotheses related to housing prices and market trends.
 
 ## Key Takeaways
-- Analyzed 800K+ housing records across US cities
+- Analyzed 800,000+ housing records across US cities
 - High-priced cities show larger price gaps but not higher relative overpricing
-- Market competitiveness impacts selling speed more than price growth
-- Demand alone is not a strong predictor of price increase
+- Market competitiveness has a stronger impact on selling speed than price growth
+- Demand alone is not a strong predictor of short-term price increases
 
-##  Dataset Overview
+## Tools
+R, tidyverse, ggplot2, data.table
 
--  831,771 rows and 58 variables :contentReference[oaicite:0]{index=0}  
--  City-level housing data  
--  Monthly observations for 2024 - 2025  
--  Includes:
-  - Prices (list & sale)
-  - Inventory & supply metrics
+## Dataset Overview
+- 831,771 rows and 58 variables
+- City-level housing data with monthly observations for 2024 - 2025
+- Includes:
+  - Prices (list and sale)
+  - Inventory and supply metrics
   - Sales activity
   - Market competitiveness indicators
 
----
-
-##  Objectives
-
+## Objectives
 The project investigates the following hypotheses:
 
-###  H1: Pricing Behavior
-> Cities with higher median list prices tend to have a larger gap between list price and sale price.
+**H1: Pricing Behavior**  
+Cities with higher median list prices tend to have a larger gap between list price and sale price.
 
-###  H2: Market Competitiveness
-> More competitive cities show higher sale-to-list ratios and lower days on market.
+**H2: Market Competitiveness**  
+More competitive cities show higher sale-to-list ratios and lower days on market.
 
-###  H3: Supply vs Demand
-> Cities with stronger demand relative to supply experience higher short-term price growth.
-
----
+**H3: Supply vs Demand**  
+Cities with stronger demand relative to supply experience higher short-term price growth.
 
 ##  Tools & Technologies
 
