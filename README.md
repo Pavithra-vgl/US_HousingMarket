@@ -7,10 +7,10 @@ The analysis is performed using **R** and focuses on testing three key hypothese
 ---
 
 ## Key Takeaways
-- ESG factors can predict profitability without using direct financial variables
-- Random Forest achieved 86% accuracy after calibration
-- Environmental and Governance scores were the strongest predictors
-- Model is suitable for financial decision support
+- Analyzed 800K+ housing records across US cities
+- High-priced cities show larger price gaps but not higher relative overpricing
+- Market competitiveness impacts selling speed more than price growth
+- Demand alone is not a strong predictor of price increase
 
 ##  Dataset Overview
 
