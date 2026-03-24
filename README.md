@@ -6,6 +6,12 @@ The analysis is performed using **R** and focuses on testing three key hypothese
 
 ---
 
+## Key Takeaways
+- ESG factors can predict profitability without using direct financial variables
+- Random Forest achieved 86% accuracy after calibration
+- Environmental and Governance scores were the strongest predictors
+- Model is suitable for financial decision support
+
 ##  Dataset Overview
 
 -  831,771 rows and 58 variables :contentReference[oaicite:0]{index=0}  
